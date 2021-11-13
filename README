@@ -1,0 +1,11 @@
+# 使用说明
+
+我编写了两个脚本来方便编译和运行, 使用方法如下：
+
+```bash
+./mpicrunner n-send-and-recv 10
+```
+
+这行命令将会编译并运行 `n-send-and-recv.c` , 在当前目录下编译生成名为 `n-send-and-recv` 的二进制程序文件，并以 10 个进程来执行此文件。
+
+对 c++ 同理，只需要将 `mpicrunner` 替换为 `mpicxxrunner` 即可

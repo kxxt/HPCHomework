@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ -z "$2" ]
+then
+    echo "Please provide number of processes!"
+else
+    mpicc "$1".c -o "$1" && mpirun -np "$2" "$1"
+fi
