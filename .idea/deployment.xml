@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="HPC" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="HPC">
+        <serverdata>
+          <mappings>
+            <mapping deploy="hpc" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="HPC (39f8bff0-9bb5-4af5-b392-d2832667ba41)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/tmp.yaMZ2mzYda" local="$PROJECT_DIR$" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-hpc-system" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-release" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-hpc" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="HPC MPI (dc84901f-691c-4fa1-a72a-6e238d087d5d)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/tmp.wifNqtY27t" local="$PROJECT_DIR$" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-release" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-hpc-system" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-hpc-system" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-hpc-mpi" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-hpc-mpi" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-release" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="HPC System (17425f74-581f-4f77-a158-f7c19d3cda2f)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/tmp.QtcqFDLGDY" local="$PROJECT_DIR$" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-release" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-hpc-system" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-hpc-system" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-hpc-mpi" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-hpc-mpi" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-remotehpc" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-release" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

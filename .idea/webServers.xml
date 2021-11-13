@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="99a971a3-7a01-4ca5-bc48-7da5a754f1bf" name="HPC">
+        <fileTransfer rootFolder="/home/train/stu21" accessType="SFTP" host="hpc" port="22" sshConfigId="23ec37cf-0f05-495f-9d9f-3f6b79334a47" sshConfig="stu21@hpc:22 password">
+          <advancedOptions>
+            <advancedOptions controlEncoding="utf8" dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
