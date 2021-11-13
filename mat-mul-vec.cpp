@@ -3,6 +3,7 @@
 #include "mpi.h"
 #include<cstdio>
 #include<iostream>
+#include<cstdlib>
 
 using namespace std;
 
@@ -12,6 +13,11 @@ using namespace std;
 inline void get_demensions(int *m, int *n) {
     printf("Please input two integers (m and n, separated by space): ");
     scanf("%d %d", m, n);
+    if (*m > MAX_BUFFER_HEIGHT || *n > MAX_BUFFER_WIDTH) {
+        cerr << "Error: m should be less than " << MAX_BUFFER_HEIGHT << " and n should be less than "
+             << MAX_BUFFER_WIDTH << endl;
+        exit(1);
+    }
 }
 
 inline void
@@ -32,7 +38,7 @@ inline void pretty_print_vec(const int *vec, int l) {
     cout << "[";
     for (int i = 0; i < l; i++) {
         printf("%d", vec[i]);
-        if (i!=l-1) cout << ", ";
+        if (i != l - 1) cout << ", ";
     }
     cout << "]" << endl;
 }
@@ -73,6 +79,7 @@ int main(int argc, char **argv) {
         }
         pretty_print_vec(result, n);
     }
+    // 等待所有发送结束
     for (int i = 0; i < cur; i++)MPI_Wait(requests + i, &status);
     // Finalize
     delete[] requests; // 释放资源
