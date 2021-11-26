@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [ -z "$1" ]
+then
+    echo "Please provide path!"
+else
+    filename=$(basename -- "$1")
+    ln -s "$1" "$filename"
+fi
