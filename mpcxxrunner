@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ -z "$2" ]
+then
+    echo "Please provide number of threads!"
+else
+    g++ -fopenmp "$1".cpp -o "$1" && env OMP_NUM_THREADS="$2" "$1"
+fi
