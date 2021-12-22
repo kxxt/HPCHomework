@@ -5,7 +5,7 @@ project(HPC)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(CMAKE_CXX_COMPILER mpicxx)
+set(CMAKE_CXX_COMPILER mpiicpc)
 set(CMAKE_C_COMPILER mpicc)
 
 set(CMAKE_CXX_FLAGS "-Wall -fopenmp")
